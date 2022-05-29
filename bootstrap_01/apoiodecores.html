@@ -125,9 +125,9 @@
 
     <!-- Colar no topo (sticky) -->
     <ul class="list-inline bg-warning sticky-top">
-      <li class="">Item 1</li>
-      <li class="">Item 2</li>
-      <li class="">Item 3</li>
+      <li class="list-inline sticky-top bg-warning">Item 1</li>
+      <li class="list-inline sticky-top bg-warning">Item 2</li>
+      <li class="list-inline sticky-top bg-warning">Item 3</li>
     </ul>
 
     <h1>Título do conteúdo</h1>
@@ -139,23 +139,23 @@
 
     <!-- classes de largura  - width -->
 
-    <div>width 25%</div>
-    <div>width 50%</div>
-    <div>width 75%</div>
-    <div>width 100%</div>
-    <div>width auto</div>
+    <div class="bg-primary m-2 p-2 w-25">width 25%</div>
+    <div class="bg-primary m-2 p-2 w-50">width 50%</div>
+    <div class="bg-primary m-2 p-2 w-75">width 75%</div>
+    <div class="bg-primary m-2 p-2 w-100">width 100%</div>
+    <div class="bg-primary m-2 p-2 w-auto">width auto</div>
 
     <br>
     <br>
 
     <!-- classes de altura - height -->
 
-    <div>
-        <div>height 25%</div>
-        <div>height 50%</div>
-        <div>height 75%</div>
-        <div>height 100%</div>
-        <div>height auto</div>
+    <div  style="border: 1px solid red; height: 300px;">
+        <div class="d-inline-block bg-warning h-25">height 25%</div>
+        <div class="d-inline-block bg-warning h-50">height 50%</div>
+        <div class="d-inline-block bg-warning h-75">height 75%</div>
+        <div class="d-inline-block bg-warning h-100">height 100%</div>
+        <div class="d-inline-block bg-warning h-100">height auto</div>
     </div>
 
     <br>
@@ -172,11 +172,12 @@
     border-<cor>: primary, secondary, success, 
         info, warning, danger, light, dark, white
     -->
-    <div>todas as bordas</div>
-    <div>borda superior</div>
-    <div>borda inferior</div>
-    <div>borda direita</div>
-    <div>borda esquerda</div>
+
+    <div class="m-2 p-1 border border-danger">todas as bordas</div>
+    <div class="m-2 p-1 border-top border-danger">borda superior</div>
+    <div class="m-2 p-1 border-bottom border-danger">borda inferior</div>
+    <div class="m-2 p-1 border-right border-danger">borda direita</div>
+    <div class="m-2 p-1 border-left border-danger">borda esquerda</div>
 
     <br>
     <br>
@@ -185,12 +186,12 @@
     opções: rounded, rounded-top, rounded-right, 
             rounded-right, rounded-left, rounded-circle
     -->
-    <div>rounded</div>
-    <div>rounded top</div>
-    <div>rounded bottom</div>
-    <div>rounded right</div>
-    <div>rounded left</div>
-    <div>rounded circle</div>
+    <div class="m-2 p-1 bg-secondary border rounded">rounded</div>
+    <div class="m-2 p-1 bg-secondary border rounded-top">rounded top</div>
+    <div class="m-2 p-1 bg-secondary border rounded-bottom">rounded bottom</div>
+    <div class="m-2 p-1 bg-secondary border rounder-right">rounded right</div>
+    <div class="m-2 p-1 bg-secondary border rounded-left">rounded left</div>
+    <div class="m-2 p-1 bg-secondary border rounded-circle">rounded circle</div>
 
     <br>
     <br>
